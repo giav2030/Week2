@@ -1,0 +1,62 @@
+html, body {
+  margin: 0;
+  /* padding: 0; */
+  align-self: center;
+  font-size: larger;
+  background-color: #0e0d0d;
+  color: azure;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+canvas {
+  display: block;
+}
+figure{
+  margin: 0;
+}
+
+h1{
+  padding: auto;
+}
+.joinBtn{
+  width: 10em;
+  height: 5ex;
+  /* background-image: linear-gradient(135deg, #4F33A1 40%, #000000); */
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+#play{
+  background-image: linear-gradient(135deg, #10bd10 40%, #000000);
+}
+#stop{
+  background-image: linear-gradient(135deg, #c6201a 40%, #000000); 
+}
+label{
+  padding: 10px;
+}
+.joinBtn:active{
+  box-shadow: 2px 2px 5px #fc894d;
+}
+
+input[type="range"]{
+  /* appearance: none; */
+  width: 400px;
+  /* height: 80px; */
+  accent-color: #ffffff;
+  margin: 0;
+}
+
+button{
+  text-align:center;
+  margin-bottom: 20px;
+  
+  text-wrap-style: auto;
+}
+
+
+input {
+  padding: 5px;
+}

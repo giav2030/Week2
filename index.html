@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.3/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5.sound@0.4.1/dist/p5.sound.min.js"></script>
+    
+    
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <script src="script2.js" defer></script> 
+     
+  </head>
+  <body>
+    
+    <h1>Web Audio Player</h1>
+      
+      <audio src="/media/On The Eve - The Grey Room _ Density & Time.mp3"> 
+      </audio>
+
+    <div>
+      <button class="joinBtn" id="play">Play</button>
+      <button class="joinBtn" id="stop" disabled>Stop</button>
+    </div>    
+    
+      
+    <div>
+      <input id="volume" type="range" min="0" max="2" value="1" step="0.01"/>
+      <!-- <p>Value: <output id="volValue"></output></p> -->
+      <label for="volume">vol <output id="volValue"></output></label>
+    </div>
+      
+    <div>
+      <input id="panner" type="range" min="-1" max="1" value="0" step="0.01"/>
+      <!-- <p>Value: <output id="panValue"></output></p> -->
+      <label for="panner">pan <output id="panValue"></output></label>
+    </div>
+
+      <h2>Set playback rate</h2>
+      <input id="playback-rate-control" type="range" min="0.25" max="3" step="0.05" value="1" />
+      <span id="playback-rate-value">1.0</span> x the original rate.
+ 
+    <!-- <script src="sketch.js"></script> -->
+     <!-- <script src="script.js"></script>   -->
+      
+  </body>
+</html>
