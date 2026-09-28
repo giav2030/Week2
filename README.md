@@ -8,3 +8,6 @@ https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_A
 https://developer.mozilla.org/en-US/docs/Web/API/AudioBufferSourceNode/playbackRate
 
 I still would love to learn more about styling in general and the file management within web pages, in audio and video for further manipulation and analysis.
+
+The example music was downloaded from the YoutubeStudio audio/music library. https://studio.youtube.com/channel/UCJHmCdaUJsnPzkE2tlD9Xag/music
+The name of the piece is On The Eve - The Grey Room _ Density & Time.
