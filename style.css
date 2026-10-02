@@ -18,8 +18,8 @@ h1{
   padding: auto;
 }
 .joinBtn{
-  width: 10em;
-  height: 5ex;
+  width: 7em;
+  height: 7em;
   /* background-image: linear-gradient(135deg, #4F33A1 40%, #000000); */
   border: none;
   border-radius: 5px;
@@ -35,7 +35,7 @@ h1{
   background-image: linear-gradient(135deg, #c6201a 40%, #000000); 
 }
 label{
-  padding: 10px;
+  /* padding: 10px; */
 }
 .joinBtn:active{
   box-shadow: 2px 2px 5px #fc894d;
@@ -51,12 +51,67 @@ input[type="range"]{
 
 button{
   text-align:center;
-  margin-bottom: 20px;
-  
+  /* margin-bottom: 20px; */
   text-wrap-style: auto;
 }
 
 
-input {
+/* input {
   padding: 5px;
+} */
+
+.flexParent{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* align-items: space-between; */
+  /* gap: 10px; */
+}
+
+.topChild{
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  /* align-items: stretch; */
+  /* align-content: stretch; */
+  /* gap: 10px; */
+  height: 75%;
+}
+
+.flexChild{
+  display: flex;
+  flex-direction: column;
+  /* flex-grow: 1; */
+  /* justify-content: center; */
+  /* align-items: space-between; */
+}
+
+#imageContainer{
+  display: flex;
+  justify-content: center;
+  flex-grow: 2;
+  /* align-items: space-between; */
+  /* gap: 10px; */
+}
+
+.audioCtrl{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* align-items: space-between; */
+  /* gap: 10px; */
+}
+
+.bottomChild{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* gap: 10px; */
+}
+
+.transportCtrl{
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* gap: 10px; */
 }
